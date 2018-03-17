@@ -13,8 +13,8 @@ public class Shop : MonoBehaviour {
         buildManager.SetTurretToBuild(buildManager.standardTurretPrefab);
     }
 
-    public void PurchaseAnotherTurret()
+    public void PurchaseMissileLauncher()
     {
-        buildManager.SetTurretToBuild(buildManager.anotherTurretPrefab);
+        buildManager.SetTurretToBuild(buildManager.missileLauncherPrefab);
     }
 }

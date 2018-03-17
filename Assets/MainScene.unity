@@ -1912,7 +1912,7 @@ Prefab:
     - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -73.52112
       objectReference: {fileID: 0}
     - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
         type: 2}
@@ -4128,7 +4128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   standardTurretPrefab: {fileID: 1726532942584562, guid: cbc2ee85811809744bb7871bde820e3a,
     type: 2}
-  anotherTurretPrefab: {fileID: 1726532942584562, guid: 7f5de2df812616d4f9b191254327abfe,
+  missileLauncherPrefab: {fileID: 1943078379866870, guid: 2357f074710803243b3939d8cae6cc45,
     type: 2}
 --- !u!1001 &736064237
 Prefab:
@@ -6687,7 +6687,7 @@ Prefab:
     - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -73.52112
       objectReference: {fileID: 0}
     - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
         type: 2}
@@ -6751,12 +6751,28 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1334138843304642, guid: b217dcedd9030bd4291e0b525e327e7e, type: 2}
       propertyPath: m_Name
-      value: AnotherTurretItem
+      value: MissileLauncherItem
       objectReference: {fileID: 0}
     - target: {fileID: 114002277779169328, guid: b217dcedd9030bd4291e0b525e327e7e,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseAnotherTurret
+      value: PurchaseMissileLauncher
+      objectReference: {fileID: 0}
+    - target: {fileID: 114970275749823070, guid: b217dcedd9030bd4291e0b525e327e7e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f90ffe46d934b234badef509e600539e,
+        type: 3}
+    - target: {fileID: 114125687024149188, guid: b217dcedd9030bd4291e0b525e327e7e,
+        type: 2}
+      propertyPath: m_PreferredWidth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125687024149188, guid: b217dcedd9030bd4291e0b525e327e7e,
+        type: 2}
+      propertyPath: m_PreferredHeight
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b217dcedd9030bd4291e0b525e327e7e, type: 2}
