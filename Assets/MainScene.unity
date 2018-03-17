@@ -1963,6 +1963,17 @@ Prefab:
       propertyPath: m_Name
       value: StandardTurretItem
       objectReference: {fileID: 0}
+    - target: {fileID: 114002277779169328, guid: b217dcedd9030bd4291e0b525e327e7e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PurchaseStandardTurret
+      objectReference: {fileID: 0}
+    - target: {fileID: 114970275749823070, guid: b217dcedd9030bd4291e0b525e327e7e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e01d29a9c929ab145971b056662321ac,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b217dcedd9030bd4291e0b525e327e7e, type: 2}
   m_IsPrefabParent: 0
@@ -6734,45 +6745,9 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 632046396}
-    - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224819771761537344, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1334138843304642, guid: b217dcedd9030bd4291e0b525e327e7e, type: 2}
       propertyPath: m_Name
       value: MissileLauncherItem
-      objectReference: {fileID: 0}
-    - target: {fileID: 114002277779169328, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseMissileLauncher
-      objectReference: {fileID: 0}
-    - target: {fileID: 114970275749823070, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f90ffe46d934b234badef509e600539e,
-        type: 3}
-    - target: {fileID: 114125687024149188, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_PreferredWidth
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 114125687024149188, guid: b217dcedd9030bd4291e0b525e327e7e,
-        type: 2}
-      propertyPath: m_PreferredHeight
-      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b217dcedd9030bd4291e0b525e327e7e, type: 2}
